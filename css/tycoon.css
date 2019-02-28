@@ -1,0 +1,130 @@
+/* Global Section */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* First Header Section */
+
+header{
+    height: 120px;
+}
+.first-head{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background: #000;
+}
+.time{
+    margin-top: 15px;
+}
+.material-icons{
+    position: relative;
+    top: 5px;
+    color: rgb(83, 219, 219);
+    margin-right: 5px;
+}
+
+/* second Header Section */
+
+.second-head{
+    display: flex;
+    justify-content: space-around;
+}
+.header-brand{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+#zeros{
+    color: rgb(83, 219, 219);
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.navbar ul li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#home{
+    color: rgb(83, 219, 219);
+}
+.nav-color{
+    color: #000;
+}
+.main-content{
+    width: 100%;    
+}
+
+/* Main Section */
+
+.bg-image{
+    height: 75vh;
+    background: url("../images/man-on-suit.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 -175px;
+    margin-top: 25px;
+}
+#innovate{
+    position: relative;
+    top: 275px;
+    padding-left: 75px;
+    font-size: 55px;
+}
+#create{
+    font-size: 20px;
+}
+section #innovate, #create{
+    line-height: 40px;
+}
+
+/* Footer Section */
+
+footer{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 200px;
+    background: rgb(83, 219, 219);
+    color: #000;
+    box-sizing: border-box;
+}
+.footer-text h2{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 30px;
+    line-height: 5px;
+    
+}
+.footer-para{
+    margin-right: 150px;
+    margin-left: 50px;
+}
+footer p{
+    line-height: 25px;
+}
+a.button{
+    border: solid 1px #000;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    float: right;
+    width: 100px;
+    height: 25px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: 75px;
+}
